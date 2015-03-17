@@ -1,0 +1,721 @@
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 927px -------------------------------- //
+@media (max-width:927px) {
+	.blog p.title {
+		font-size: 25px;
+		font-weight: 700;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 915px -------------------------------- //
+
+@media (max-width: 915px) {
+	h1 a {
+		padding-top: 5px;
+	}
+	.navTop ul {
+		padding:0;
+	}
+	.navTop li {
+		width:100%;
+		padding:5px;
+	}
+	.navTop li a {
+		padding: 10px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.wrapper {
+		padding:0 50px;
+	}
+	.tierTwo {
+		width: 75%;
+	}
+	.service h4 {
+		font-size: 15px;
+		margin-top: 0;
+		font-weight: 400;
+	}
+	.service p {
+		font-size: 12px;
+	}
+	.service img {
+		margin:10px;
+	}
+	.tierFive {
+		width:75%;
+		padding-bottom:10px;
+	}
+	.blog p {
+		font-size: 15px;
+		font-weight: 300;
+	}
+	.blog p.title {
+		font-size: 16px;
+		font-weight: 700;
+	}
+	.t2 {
+		font-size: 17px;
+	}
+	.t2 a {
+		font-size: 17px;
+	}
+	.portfolios {
+		margin: 2.5% 0;
+	}
+	li.skillBtn {
+		padding: 10px 15px;
+		margin: 10px;
+	}
+	.twitterTagline {
+		width:55%;
+		font-size: 15px;
+	}
+	.twitterLink {
+		font-size: 13px;
+	}
+	.social {
+		padding:25px 0;
+	}
+	.contactTitle {
+		margin-top:10px;
+	}
+	.submitButton {
+		margin-top:20px;
+		margin-bottom:20px;
+		font-size: 15px;
+	}
+	.subscribeButton {
+		padding: 15px;
+	}
+	.bottomLeft {
+		width:60%;
+	}
+	.bottomRight {
+		width:40%;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 845px -------------------------------- //
+
+@media (max-width: 845px) {
+	.bottomLeft {
+		width:55%;
+	}
+	.bottomRight {
+		width:45%;
+	}
+}
+
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 821px -------------------------------- //
+@media (max-width: 821px) {
+	li.skillBtn:nth-child(2) {
+		width: 57%;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 780px -------------------------------- //
+
+@media (max-width: 780px) {
+
+label.menuIcon {
+	float: left;
+	font-size: 25px;
+	font-weight: 300;
+	text-decoration: none;
+	padding-left: 2%;
+	visibility:visible;
+	padding-top:3%;
+}
+i.fa-bars {
+	margin-left:0%;
+}
+h1 a {
+	float: right;
+}
+
+.siteWrapper {
+	overflow:hidden;
+	position: relative;
+	left:0;
+	transition:left 0.5s;
+	width:100%;
+}
+
+.navButton {
+	display:block;
+	background: none;
+	text-shadow:none;
+	padding: 0;
+	margin: 0;
+	}
+
+.siteWrapper nav {
+	position: fixed;
+	background: black;
+	height: 100%;
+	left:-30%;
+	margin: 0;
+	padding: 0;
+	width:30%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	transition:left 0.5s;
+}
+
+.siteWrapper ul {
+	width:100%;
+}
+
+.siteWrapper ul li {
+	display: block;
+	margin: 0;
+	width:100%;
+}
+
+.siteWrapper ul li a {
+	color:#1ccc9e;
+	font-size: 20px;
+	display: block;
+	padding: 5%;
+	width:100%;
+}
+
+.siteWrapper ul li a:hover {
+	border:0;
+	background: #1ccc9e;
+	border-color:white;
+	color:white;
+	border-radius: 5px;
+	position: fixed;
+	position: relative;
+}
+	input#toggle:checked + .siteWrapper nav {
+		left:0;
+	}
+
+	input#toggle:checked ~ .siteWrapper {
+		left:30%;
+	}
+
+	.container label {
+		display: inline-block;
+		float:left;
+		font-size: 23px;
+		color: rgba(0,187,140,1);
+		padding-left: 40px;
+		font-weight: 300;
+	}
+	.service {
+		width:50%;
+	}
+	.service img {
+		max-width: 50%;
+	}
+	.service h4 {
+		margin-top:2.5%;
+	}
+	.service p {
+		font-size: 15px;
+		margin-top:2.5%;
+	}
+	.tierFive h5 {
+		margin-bottom:2%;
+	}
+	.portfolio {
+		width: 47%;
+	}
+	.portfolio img {
+		width:100%;
+		height:auto;
+		display: block;
+	}
+	.portfolio h4 {
+		font-size: 20px;
+		margin-top:5%;
+	}
+	.portfolio p {
+		font-size: 13px;
+		margin-bottom: 5%;
+	}
+	.tierFour {
+		width:100%
+	}
+
+	ul.skillsList li {
+		display: inline-block;
+		width: auto;
+		margin: 1%;
+	}
+
+	li.skillBtn:nth-child(2) {
+		width: 30%;
+	}
+
+	.contactDesc {
+		color: grey;
+		font-size: 13px;
+	}
+	.contactTitle {
+		font-size: 25px;
+		margin-top:1%;
+		margin-bottom:1%;
+	}
+	.contactTitleDesc {
+		font-size: 14px;
+	}
+	label {
+		font-size: 15px;
+		padding-bottom:2%;
+	}
+	.name {
+		font-size: 12px;
+	}
+	.phoneNumber {
+		font-size: 12px;
+	}
+	textarea {
+		font-size: 12px;
+		height:120px;
+	}
+	.submitButton {
+		font-size: 13px;
+		padding:10px 20px;
+	}
+	.newsletterDetails {
+		font-size: 18px;
+	}
+	.subscribeDetail {
+		width: 60%;
+		display: inline-block;
+		font-size: 15px;
+		letter-spacing: 1.2px;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 762px -------------------------------- //
+
+@media (max-width: 762px) {
+	.bottomLeft {
+		width:50%;
+		font-size: 13px;
+	}
+	.bottomRight {
+		width: 50%;
+		float: left;
+		font-size: 13px;
+	}
+	.bottomImage {
+		height:17px;
+		width:auto;
+	}
+}
+
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 712px -------------------------------- //
+
+@media (max-width: 712px) {
+	h1 a {
+		margin-right:3%;
+	}
+	h2 {
+	letter-spacing: 15px;
+	font-size: 30px;
+	}
+	.tagline p {
+		width: 65%;
+		font-size: 15px;
+		line-height: 1.2;
+		letter-spacing: 1.5px;
+	}
+	.startedButton {
+		padding: 10px;
+		border: 1px solid white;
+		font-weight: 300;
+		font-size: 20px;
+	}
+	.scroll p {
+		font-weight: 300;
+	}
+	.siteWrapper ul li a {
+		font-size: 15px;
+	}
+	.blogs {
+		padding-bottom: 7%;
+	}
+	.blog {
+		max-width:97%;
+		margin-bottom:5%;
+	}
+	.blog p {
+		max-width: 80%;
+		padding: 0 3%;
+	}
+	.blog2 {
+		max-width:95%;
+	}
+	.button {
+		float:right;
+		margin-right:5%;
+	}
+	ul.skillsList li {
+		display: inline-block;
+		width: auto;
+		margin: 1%;
+		padding:10px;
+	}
+	li.skillBtn:nth-child(2) {
+		width: 30%;
+	}
+	.contactTitle {
+		font-size: 18px;
+	}
+	.contactTitleDesc {
+		font-size: 13px;
+	}
+	.subscribeDetail {
+		font-size: 13px;
+		letter-spacing: 0.7px;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 645px -------------------------------- //
+
+@media (max-width: 645px) {
+	.startedButton {
+		padding: 10px;
+		border: 1px solid white;
+		font-weight: 300;
+		font-size: 20px;
+	}
+	.scroll p {
+		font-weight: 300;
+	}
+	.supports {
+		padding-top:5%;
+		padding-bottom:5%;
+	}
+	.t1 {
+		font-size: 25px;
+	}
+	.t2 {
+		font-size: 15px;
+	}
+	.t2 a {
+		font-size: 15px;
+	}
+	ul.skillsList li {
+		display: inline-block;
+		width: 45%;
+		margin: 1%;
+		padding:10px;
+	}
+	li.skillBtn:nth-child(2) {
+		width: 45%;
+	}
+	.twitterBird {
+		max-width: 70px;
+		height: auto;
+	}
+	.twitterTagline {
+		width:80%;
+		font-size: 15px;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 631px -------------------------------- //
+@media (max-width: 631px) {
+	.tierTwo, .tierFive {
+		width:90%;
+		padding-bottom:5px;
+	}
+	.service {
+		width:90%;
+	} 
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 600px -------------------------------- //
+@media (max-width: 600px) {
+	.contactTopWrapper {
+		width:80%;
+	}
+	.contactTitle {
+		font-size: 20px;
+		font-weight: 300;
+	}
+	.contactBtmWrapper {
+		width:100%;
+	}
+	.contactTitleDesc {
+		width:70%;
+	}
+	.contactDesc {
+		font-size: 17px;
+	}
+	.subscribeDetail {
+		width:90%;
+	}
+	.bottomLeft {
+		width:25%;
+	}
+	.bottomLeft p {
+		margin-top:0;
+		margin-bottom:0;
+		font-size: 10px;
+	}
+	.bottomRight {
+		float:right;
+		padding-top:0;
+	}
+	.bottomRight p {
+		margin:0;
+		font-size: 10px;
+		padding-right:0;
+		padding-top:10px;
+	}
+	.bottomImage {
+		height: 13px;
+		width: auto;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 597px -------------------------------- //
+// @media (max-width:597px) {
+// 	.siteWrapper ul li a {
+// 		padding:5%;
+// 	}
+// }
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 550px -------------------------------- //
+@media (max-width: 550px) {
+	.newsletterEmail {
+		width:100%;
+		padding:10px;
+	}
+	.subscribeButton {
+		padding:10px;
+		margin-top:2.5%;
+		font-size: 14px;
+		margin-left:0;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 500px -------------------------------- //
+@media (max-width: 500px) {
+	h1 a {
+		margin-right:7%;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.tagline p {
+		font-size: 12px;
+		line-height: 1.4;
+	}
+	.startedButton {
+		font-size: 15px;
+	}
+	.scroll {
+		font-size: 13px;
+	}
+	i.fa-chevron-circle-down {
+		font-size: 30px;
+	}
+	.tierTwo, .tierFive {
+		width:100%;
+		padding-bottom:5px;
+	}
+	.service {
+		width:100%;
+	}
+	.t1 {
+		font-size: 20px;
+	}
+	.t2 {
+		font-size: 13px;
+	}
+	.t2 a {
+		font-size: 13px;
+	}
+	.sButton {
+		width: 100%;
+		text-align: center;
+	}
+	.supportButton {
+		font-size: 13px;
+		padding: 8px 15px;
+		margin-bottom:15px;
+	}
+	.portfolio {
+		width:100%;
+	}
+	.portfolio h4 {
+		letter-spacing: 1.2px;
+		margin: 10px 0 5px 0;
+	}
+	.portfolio p {
+		margin-bottom:10px;
+	}
+	.skillsList {
+		padding-left: 0;
+	}
+	.contactDesc p {
+		margin: 5px;
+	}
+	.contactFormDesc p {
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	.subscribeButton {
+		float:right;
+	}
+	footer {
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+	.bottomLeft {
+		width:60%;
+	}
+	.bottomRight {
+		width:40%;
+	}
+	.bottomDetail {
+		width:100%;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 400px to 452px -------------------------------- //
+@media (min-width: 400px) and (max-width: 452px) {
+	h1 a {
+		margin-right:15%;
+	}
+	.container label {
+		padding-left: 10px;
+	}
+	ul.skillsList li {
+		display: inline-block;
+		width: 100%;
+		margin: 10px;
+		padding:10px;
+	}
+	li.skillBtn:nth-child(2) {
+		width: 100%;
+	}
+	.newsletterDetails {
+		font-size: 18px;
+		letter-spacing: 0;
+	}
+	.newsletterEmail {
+		font-size: 12px;
+		padding:5px;
+	}
+	.subscribeButton {
+		padding:5px;
+	}
+	.subscribeDetail {
+		width:100%;
+		font-size: 15px;
+		letter-spacing: 0;
+	}
+	.bottomLeft {
+		width:55%;
+	}
+	.bottomRight {
+		width:45%;
+	}
+}
+
+// ------------------------ MEDIA QUERIES SECTION ------------------------ //
+// -------------------------------- 300px to 399px -------------------------------- //
+@media (min-width: 300px) and (max-width: 399px) {
+	h1 a {
+		margin-right:20%;
+	}
+	.menuIcon {
+		margin-top:2%;
+	}
+	.startedButton {
+		padding: 5px;
+	}
+	.tierTwo p {
+		font-weight: 300;
+	}
+	.service p {
+		font-weight: 300;
+	}
+	.blogs p {
+		font-weight: 300;
+	}
+	.t2 {
+		font-weight: 300;
+	}
+	.sButton p {
+		font-weight: 300;
+		padding:8px;
+	}
+	.portfolio h4 {
+		font-weight: 400;
+	}
+	.portfolio p {
+		font-weight: 400;
+	}
+	.tierFour p {
+		font-weight: 300;
+	}
+	.skillsList {
+		width: 100%;
+	}
+	ul.skillsList li {
+		display: block;
+		width: 100%;
+		margin: 10px;
+		padding:10px;
+	}
+	li.skillBtn:nth-child(2) {
+		width: 100%;
+	}
+	.contactTitleDesc {
+		width:100%;
+	}
+	.newsletterDetails {
+		font-size: 15px;
+		font-weight: 400;
+		width:100%;
+	}
+	.newsletterEmail {
+		font-size: 13px;
+	}
+	.subscribeButton {
+		font-weight: 400;
+	}
+	footer {
+		width:100%;
+		text-align: center;
+	}
+	.bottomImage {
+		margin:0 auto;
+		float: center;
+	}
+	.bottomLeft {
+		width:100%;
+	}
+	.bottomRight {
+		width:100%;
+	}
+}
+
